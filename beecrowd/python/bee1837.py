@@ -1,6 +1,6 @@
 A, B = [int(x) for x in input().split()]
 
-r =  A // abs(B)
+r = A // abs(B)
 q = A % abs(B)
 
 if B < 0:
